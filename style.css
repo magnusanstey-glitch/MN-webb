@@ -166,26 +166,40 @@ nav {
   max-width: 1000px;
   margin: 0 auto;
 
-}
-
-.personer {
-  display: flex;
-  justify-content: center;   
-  gap: 2rem;                 
-  flex-wrap: wrap;           
-}
-
 .person {
-  max-width: 350px;          
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 20px;
+  padding: 30px;
+  max-width: 350px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.person:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(144, 224, 239, 0.3);
 }
 
 .person img {
   width: 100%;
-  height: auto;
-  display: block;
+  border-radius: 15px;
+  margin-bottom: 20px;
   object-fit: cover;
-  border-radius: 20px;       
+  aspect-ratio: 1 / 1; 
+  border: 3px solid black;
 }
+
+.person h3 {
+  color: #f9c74f;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+}
+
+.person p {
+  color: #d8f3dc;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
 
 
 
