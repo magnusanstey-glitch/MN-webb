@@ -183,7 +183,7 @@ nav {
 
 .team-card img {
   width: 100%;
-  height: auto;
+  height: 260px;
   border-radius: 12px;
   object-fit: cover;
 }
